@@ -64,7 +64,7 @@ public class MyApplication {
 			Assert.assertEquals(URL, "http://demo.guru99.com/test/newtours/register_sucess.php" );
 			
 			//Click on sign on link
-			Driver.findElement(By.xpath(//a[@href ='/docs/configurationlogin.php']")).click();
+			Driver.findElement(By.xpath(//a[@href ='/signin.php']")).click();
          
   		}
 		else
